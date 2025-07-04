@@ -1,0 +1,78 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #b3e0ff 0%, #ffe4f3 50%, #b39ddb 100%);
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin-bottom: 100px;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(100, 100, 150, 0.15);
+  border: 2px solid #e0bbff;
+  padding: 2.5rem 2rem;
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-card h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  margin-bottom: 0.7em;
+  font-weight: 700;
+  color: #7c4dff;
+  letter-spacing: 1px;
+}
+
+.profile-card p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e0bbff;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 16px rgba(124, 77, 255, 0.2);
+}
+
+.bottom-center-icons {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin-top: 48px; /* space above the icons */
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  background: transparent;
+  pointer-events: none;
+}
+
+.icon-img {
+  width: 48px;
+  height: 48px;
+  display: block;
+  pointer-events: auto;
+}
+
+.bottom-center-icons a:first-child .icon-img {
+  width: 56px;
+  height: 56px;
+}
